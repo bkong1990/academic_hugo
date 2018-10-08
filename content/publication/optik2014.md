@@ -1,10 +1,10 @@
 +++
-title = "Cancer Metastasis Detection via Spatially Structured Deep Network"
-date = 2017-06-25T00:00:00
+title = "Design of a Color Coded Target for Vision Measurements"
+date = 2014-07-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Bin Kong", "Xin Wang", "Zhongyu Li", "Qi Song", "Shaoting Zhang"]
+authors = ["Xieliu Yang", "Suping Fang", "Bin Kong", "Yichao Li"]
 
 # Publication type.
 # Legend:
@@ -15,15 +15,15 @@ authors = ["Bin Kong", "Xin Wang", "Zhongyu Li", "Qi Song", "Shaoting Zhang"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 # publication = "In *International Conference on Multimedia and Expo Workshops (ICMEW)*, IEEE."
-publication = "In *International Conference on Information Processing in Medical Imaging (IPMI)*."
-publication_short = "In *IPMI*"
+publication = "In *Optik-International Journal for Light and Electron Optics*."
+publication_short = "In *Optik*"
 
 # Abstract and optional shortened version.
-abstract = "Metastasis detection of lymph nodes in Whole-slide Images (WSIs) plays a critical role in the diagnosis of breast cancer. Automatic metastasis detection is a challenging issue due to the large variance of their appearances and the size of WSIs. Recently, deep neural networks have been employed to detect cancer metastases by dividing the WSIs into small image patches. However, most existing works simply treat these patches independently and do not consider the structural information among them. In this paper, we propose a novel deep neural network, namely Spatially Structured Network (Spatio-Net) to tackle the metastasis detection problem in WSIs. By integrating the Convolutional Neural Network (CNN) with the 2D Long-Short Term Memory (2D-LSTM), our Spatio-Net is able to learn the appearances and spatial dependencies of image patches effectively. Specifically, the CNN encodes each image patch into a compact feature vector, and the 2D-LSTM layers provide the classification results (i.e., normal or tumor), considering its dependencies on other relevant image patches. Moreover, a new loss function is designed to constrain the structure of the output labels, which further improves the performance. Finally, the metastasis positions are obtained by locating the regions with high tumor probabilities in the resulting accurate probability map. The proposed method is validated on hundreds of WSIs, and the accuracy is significantly improved, in comparison with a state-of-the-art baseline that does not have the spatial dependency constraint."
+abstract = "As a category of special control points which can be automatically identified, artificial coded targets have been widely developed in the field of computer vision, photogrammetry, augmented reality, etc. In this study, a novel color coded target is designed for vision measurements. A reference position is defined to avoid the repeated coding as well as simplify the coding structure, and a pair of concentric circles is utilized for the precise location of the target. An edge-based identification and location algorithm is proposed for the designed coded target. In this algorithm, a coarse-fine strategy is employed to improve the efficiency and various judgments are made to ensure the correctness of the identification. No human involvement is required except for the adjustment of thresholds in the beginning, which is conducive to the automation of measurement. The algorithm shows high accuracy and robustness in experiments."
 abstract_short = "A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone's GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on."
 
 # Featured image thumbnail (optional)
@@ -44,15 +44,14 @@ selected = false
 tags = []
 
 # Links (optional).
-url_pdf = "https://link.springer.com/chapter/10.1007/978-3-319-59050-9_19"
+url_pdf = "https://www.sciencedirect.com/science/article/pii/S0030402614003106"
 #url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
 #url_code = "#"
 #url_dataset = "#"
 #url_project = "#"
 #url_slides = "#"
 #url_video = "#"
-#url_poster = "#"
-url_poster = "files/IPMI17_poster.pdf"
+#url_poster = "files/miccai2018_poster.pdf"
 #url_source = "#"
 
 # Custom links (optional).
@@ -75,3 +74,4 @@ math = true
 #caption = "My caption :smile:"
 
 +++
+
