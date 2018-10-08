@@ -29,17 +29,32 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
-#
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+[[filter]]
+  name = "All"
+  tag = "*"
+
+[[filter]]
+  name = "Pathology Image Analysis"
+  tag = "Pathology Image Analysis"
+
+[[filter]]
+  name = "Coronary Artery Segmentation"
+  tag = "Coronary Artery Segmentation"
+
+[[filter]]
+  name = "High Resolution Image Processing"
+  tag = "High Resolution Image Processing"
+
+[[filter]]
+  name = "X-ray Image Processing"
+  tag = "X-ray Image Processing"
+
+#[[filter]]
+#  name = "Deep Learning"
+#  tag = "Deep Learning"
+
+#[[filter]]
+#  name = "Other"
+#  tag = "Demo"
 
 +++
-
