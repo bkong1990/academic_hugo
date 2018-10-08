@@ -243,6 +243,11 @@ enableGitInfo = false
     link = "mailto:bkong@uncc.edu"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "//www.linkedin.com/in/bin-kong-2a192511b/"
+
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
     link = "//twitter.com/bkong1990"
